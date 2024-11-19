@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Keyword Rank Checker",
+  "description": "This browser extension is a powerful tool designed to help users check the Google search ranking of specific keywords for their website. Simply input your desired keywords and domain to quickly retrieve their ranking position on Google search results. The extension offers seamless integration, real-time ranking updates, and supports bulk keyword searches via CSV files. Ideal for SEO professionals and website owners looking to monitor and optimize their online presence efficiently.",
+  "icons": {
+    "16": "logo16.png",
+    "32": "logo32.png",
+    "128": "logo128.png"
+  },
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "webNavigation",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
